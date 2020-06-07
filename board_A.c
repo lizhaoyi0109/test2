@@ -3,9 +3,6 @@
 
 static int led_init(int which)
 {
-
-
-
     printk(KERN_DEBUG  "myCode%s %s line %d\r\n", __FILE__, __FUNCTION__, __LINE__);
     return 0;
 }
